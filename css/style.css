@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
-*
-
-{
+*{
 
     margin:0;
 
@@ -25,9 +23,6 @@ body{
     min-height: 100vh;
 
     background: #2c2c2c;
-
-
-
 }
 
 .form
@@ -49,9 +44,6 @@ body{
     box-shadow:-5px -5px 10px rgba(255,255,255,0.05),
 
                 5px 5px 15px rgba(0,0,0,0.5);
-
-
-
 }
 
 
@@ -67,8 +59,6 @@ body{
     letter-spacing: 4px;
 
 }
-
-
 
 .form .input
 
@@ -188,6 +178,12 @@ body{
 
     color:#ff0047
 
+}
+
+@media(max-width:375px){
+.form {
+      width: 325px;
+    }
 }
 
 
